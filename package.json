@@ -1,0 +1,37 @@
+{
+  "name": "do-dump-js",
+  "version": "1.0.0",
+  "description": "NodeJS project which allows you to create dumps from-to",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Regani/do-dump-js.git"
+  },
+  "author": "Bohdan Konechnyi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Regani/do-dump-js/issues"
+  },
+  "homepage": "https://github.com/Regani/do-dump-js#readme",
+  "imports": {
+    "#config/*": "./config/*",
+    "#enum/*": "./enum/*",
+    "#helper/*": "./helper/*",
+    "#core/*": "./core/*"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.2.0"
+  },
+  "dependencies": {
+    "find-n-remove": "github:Regani/find-n-remove",
+    "fs-extra": "^10.0.1"
+  }
+}
