@@ -22,5 +22,3 @@ dumper
             console.log('Dumped')
         })
     })
-
-// node main.js --dump-from=../ --dump-to=C:\Users\Bohdan\OneDrive\Desktop\dump_test\destination
